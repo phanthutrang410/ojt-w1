@@ -214,3 +214,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# FANFAN HELU
+
+
+# Bỏ qua các file nháp hệ thống tự sinh ra trong quá trình Python biên dịch code
+__pycache__/
+*.pyc
+
+# BẢO MẬT: File chứa API key, mật khẩu database, không được commit
+.env
+
+# Bỏ qua thư mục chứa dữ liệu thô (ảnh, csv, audio) vì dung lượng quá lớn
+data/raw/
+
+# Bỏ qua các file lưu trọng số (weights) của mô hình AI vì file này nặng
+*.pth
+*.pt
+
+# Bỏ qua các file lưu tạm của Jupyter Notebook/Google Colab
+.ipynb_checkpoints/
