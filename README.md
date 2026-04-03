@@ -10,5 +10,3 @@ Phan Thu Trang
 
 \- `src/`: Chứa code model Linear và MLP.
 
-\- `notebooks/`: Chứa file bài tập (.ipynb).
-
